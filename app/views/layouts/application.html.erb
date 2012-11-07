@@ -3,7 +3,7 @@
 <head>
   <title>Surfeit</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "modernizr.custom.69142.js" %>
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link href='http://fonts.googleapis.com/css?family=Advent+Pro:100,500' rel='stylesheet' type='text/css'>
 </head>
@@ -11,19 +11,20 @@
 
 <%= yield %>
 
-
-<%= javascript_include_tag "jquery-1.7.2.min" %>
-
-		<%= javascript_include_tag "jquery.transit.min" %>
+<%= javascript_include_tag "application" %>
 
 
-		<%= javascript_include_tag "jquery.imagesloaded" %>
+
+<%= javascript_include_tag "jquery.transit.min" %>
 
 
-		<%= javascript_include_tag "jquery.ba-dotimeout.min" %>
+<%= javascript_include_tag "jquery.imagesloaded" %>
 
 
-		<%= javascript_include_tag "jquery.gridgallery" %>
+<%= javascript_include_tag "jquery.ba-dotimeout.min" %>
+
+
+<%= javascript_include_tag "jquery.gridgallery" %>
 
 		<script type="text/javascript">	
 			$(function() {
