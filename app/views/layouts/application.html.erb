@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Surfeit</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link href='http://fonts.googleapis.com/css?family=Advent+Pro:100,500' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<%= yield %>
+
+
+<%= javascript_include_tag "jquery-1.7.2.min.js" %>
+<!-- <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script> -->
+		<%= javascript_include_tag "jquery.transit.min.js" %>
+		<!-- <script type="text/javascript" src="js/jquery.transit.min.js"></script> -->
+
+		<%= javascript_include_tag "jquery.imagesloaded.js" %>
+		 <!-- <script type="text/javascript" src="js/jquery.imagesloaded.js"></script> -->
+
+		<%= javascript_include_tag "jquery.ba-dotimeout.min.js" %>
+		<!-- <script type="text/javascript" src="js/jquery.ba-dotimeout.min.js"></script> -->
+
+		<%= javascript_include_tag "jquery.gridgallery.js" %>
+		 <!-- <script type="text/javascript" src="js/jquery.gridgallery.js"></script> -->
+
+		<script type="text/javascript">	
+			$(function() {
+			
+				$( '#sg-panel-container' ).gridgallery();
+			
+			});
+</script>
+</body>
+</html>
