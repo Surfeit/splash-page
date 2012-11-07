@@ -14,3 +14,7 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery-1.7.2.min.js
+//= require jquery.transit.min.js
+//= require jquery.imagesloaded.js
+//= require jquery.ba-dotimeout.min.js
+//= require jquery.gridgallery.js
