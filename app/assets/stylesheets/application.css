@@ -11,4 +11,5 @@
  *= require_self
  *= require demo.css
  *= require style.css
+ *= require normalize.css
  */
